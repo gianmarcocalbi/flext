@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "/"
+		},
+		{
+			"path": "packages/flext",
+			"name": "flext"
+		},
+		{
+			"path": "packages/flext_bloc",
+			"name": "flext_bloc"
+		},
+		{
+			"path": "packages/flext_core",
+			"name": "flext_core"
+		},
+		{
+			"path": "packages/flext_go_router",
+			"name": "flext_go_router"
+		}
+	],
+	"settings": {
+		"dart.flutterSdkPath": ".fvm/flutter_sdk",
+	}
+}

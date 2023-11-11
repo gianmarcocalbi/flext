@@ -1,0 +1,20 @@
+name: flext_bloc
+description: Flext extension for flutter_bloc.
+version: 0.1.0
+
+homepage: https://github.com/gianmarcocalbi/flext/tree/main/packages/flext_bloc
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
