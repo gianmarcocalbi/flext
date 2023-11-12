@@ -1,5 +1,5 @@
 name: flext_go_router
-description: Flext extension for go_router.
+description: Flext extensions for go_router.
 version: 0.1.0
 homepage: https://github.com/gianmarcocalbi/flext/tree/main/packages/flext_go_router
 

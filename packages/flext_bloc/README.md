@@ -1,39 +1,92 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flext Bloc
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A bunch of extensions for `flutter_bloc` package.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Check out the [main Flext package](https://pub.dev/packages/flext) to see other
+useful extensions.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Install the package by running the following command:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```bash
+flutter pub add flext_bloc
 ```
 
-## Additional information
+Then you can import the package and use all its extensions.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Features
+
+### BuildContext
+
+#### `tryRead`
+
+Returns the bloc of a certain type `T` if it is available in the context,
+otherwise returns `null`.
+
+```dart
+final bloc = context.tryRead<T>();
+```
+
+#### `provide`
+
+Provides the input widget with a bloc from the context.
+
+```dart
+context.provide<T>(widget);
+
+// Instead of
+BlocProvider.value(
+  value: BlocProvider.of<T>(context),
+  child: widget,
+);
+```
+
+#### `tryProvide`
+
+Provides the input widget with a bloc from the context if it is available,
+otherwise returns the input widget itself.
+
+It's like `provide` but it does not throw an exception if the bloc is not found
+in the context.
+
+### Navigator
+
+#### `pushBlocListenerBarrier`
+
+Pushes a barrier to bloc user input while listening to a bloc in order to 
+decide when to pop the barrier itself.
+
+**NOTE: this function works also with cubits**.
+
+```dart
+// CounterBloc example here:
+// https://gist.github.com/felangel/fc8230776591f0297e6a1d1b5ef46a6c#file-main-dart
+
+context.pushBlocListenerBarrier<CounterBloc, int>(
+  bloc: counterBloc,
+  trigger: () => counterBloc.add(Increment())
+  listener: (context, state) {
+    if(state >= 1) {
+      Navigator.of(context).pop();
+    }
+  },
+);
+```
+
+#### `pushBlocListenerBarrierWithEvent`
+
+Like `pushBlocListenerBarrier` but it takes directly a bloc event instead of a
+trigger function.
+
+```dart
+context.pushBlocListenerBarrierWithEvent<CounterBloc, int>(
+  bloc: counterBloc,
+  event: Increment(),
+  listener: (context, state) {
+    if(state >= 1) {
+      Navigator.of(context).pop();
+    }
+  },
+);
+```
