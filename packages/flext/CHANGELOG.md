@@ -1,5 +1,9 @@
 ## 1.1.0
 
+ - Update flext_core to 1.1.0
+
+## 1.1.0
+
 - Upgrade flext_core to 1.1.0
 
 ## 1.0.0

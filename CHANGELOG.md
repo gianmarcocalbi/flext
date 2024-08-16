@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flext` - `v1.1.0`](#flext---v110)
+
+---
+
+#### `flext` - `v1.1.0`
+
+ - Update flext_core to 1.1.0
+
+
+## 2024-08-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flext_core` - `v0.2.0`](#flext_core---v020)
  - [`flext` - `v0.1.0+1`](#flext---v0101)
 
