@@ -5,15 +5,14 @@ homepage: https://github.com/gianmarcocalbi/flext/tree/main/packages/flext
 
 environment:
   sdk: '>=3.1.4 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: '>=1.17.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flext_core: 0.2.1
-  flext_bloc: 0.1.0
-  flext_go_router: 1.0.0
-  dartx: any
+  flext_core: ^0.2.1
+  flext_bloc: ^0.1.0
+  flext_go_router: ^1.0.0
 
 dev_dependencies:
   flutter_test:
