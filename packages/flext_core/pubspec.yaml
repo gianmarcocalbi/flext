@@ -1,6 +1,6 @@
 name: flext_core
 description: Flext extensions for dart and flutter.
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/gianmarcocalbi/flext/tree/main/packages/flext_core
 
 environment:
@@ -8,6 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  collection: ^1.18.0
   flutter:
     sdk: flutter
 
