@@ -2,6 +2,8 @@ extension FlextCoreString on String {
   /// Matches only the last `\n` of a series of newlines.
   static final matchOneNewLineRegex = RegExp(r'\n(?!\n)');
 
+  static final _camelCaseRegExp = RegExp(r'(?<=[a-z0-9])[A-Z]');
+
   String capitalize() {
     if (isEmpty) {
       return this;
@@ -48,4 +50,8 @@ extension FlextCoreString on String {
     }
     return tmp;
   }
+
+  /// Converts [this] to snake_case.
+  String toSnakeCase() =>
+      replaceAllMapped(_camelCaseRegExp, (m) => '_${m.group(0)}').toLowerCase();
 }

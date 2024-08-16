@@ -15,3 +15,4 @@ export 'src/num.dart';
 export 'src/object.dart';
 export 'src/string.dart';
 export 'src/time_of_day.dart';
+export 'package:collection/collection.dart';

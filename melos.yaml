@@ -14,5 +14,6 @@ scripts:
     packageFilters:
       dependsOn: build_runner
 
-  format:
+  fix:
+    description: Apply Dart fixes and format to the project
     exec: fvm dart fix ./lib --apply && fvm dart format ./lib

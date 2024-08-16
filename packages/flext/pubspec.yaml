@@ -1,6 +1,6 @@
 name: flext
 description: All Flext extensions for Flutter.
-version: 0.1.0
+version: 1.1.0
 homepage: https://github.com/gianmarcocalbi/flext/tree/main/packages/flext
 
 environment:
@@ -10,9 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flext_core: 0.1.0
+  flext_core: 0.2.0
   flext_bloc: 0.1.0
-  flext_go_router: 0.1.0
+  flext_go_router: 1.0.0
   dartx: any
 
 dev_dependencies:
