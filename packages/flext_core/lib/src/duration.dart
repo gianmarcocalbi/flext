@@ -1,5 +1,4 @@
 extension FlextCoreDuration on Duration {
-  
   String toHhMmSsString() {
     String twoDigits(int n) => n.toString().padLeft(2, '0');
     final twoDigitMinutes = twoDigits(inMinutes.remainder(60));

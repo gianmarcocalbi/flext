@@ -11,4 +11,3 @@ extension FlextCoreList<T> on List<T> {
     }
   }
 }
-

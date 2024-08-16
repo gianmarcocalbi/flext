@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flext_core: 0.1.0
+  flext_core: 0.2.0
   flext_bloc: 0.1.0
   flext_go_router: 0.1.0
   dartx: any
