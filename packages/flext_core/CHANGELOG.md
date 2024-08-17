@@ -1,3 +1,9 @@
+## 0.3.0
+
+ - Add `pickOneRandom` and `pickNRandom` methods to list extension
+
+ - **FIX**: add collection dependency to flext_core.
+
 ## 0.2.1
 
  - Add `collection` dependency.

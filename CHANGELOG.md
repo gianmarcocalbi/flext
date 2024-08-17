@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-08-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flext_core` - `v0.3.0`](#flext_core---v030)
+ - [`flext` - `v1.2.0`](#flext---v120)
+
+---
+
+#### `flext_core` - `v0.3.0`
+
+ - Add `pickOneRandom` and `pickNRandom` methods to list extension
+
+ - **FIX**: add collection dependency to flext_core.
+
+#### `flext` - `v1.2.0`
+
+ - Add `pickOneRandom` and `pickNRandom` methods to list extension
+
+ - **FIX**: add collection dependency to flext_core.
+ - **FIX**: fix changelog.
+
+
 ## 2024-08-16
 
 ### Changes
