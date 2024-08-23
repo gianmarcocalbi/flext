@@ -1,3 +1,7 @@
+## 0.3.1
+
+ - **FEAT**: Add  and  methods to list extension.
+
 ## 0.3.0
 
  - Add `pickOneRandom` and `pickNRandom` methods to list extension

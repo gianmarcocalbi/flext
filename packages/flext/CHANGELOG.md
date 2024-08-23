@@ -1,3 +1,7 @@
+## 1.2.1
+
+ - Update a dependency to the latest release.
+
 ## 1.2.0
 
  - Add `pickOneRandom` and `pickNRandom` methods to list extension

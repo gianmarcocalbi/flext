@@ -29,8 +29,8 @@ extension FlextCoreList<T> on List<T> {
       length,
       'number must be greater than 0 and less than length',
     );
-    return toList()
-      ..shuffle(random)
-      ..sublist(0, amount);
+    final l = toList();
+    l.shuffle(random);
+    return l.sublist(0, amount);
   }
 }
