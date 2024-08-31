@@ -1,27 +1,24 @@
 ## 0.4.1
 
- - **FEAT**: add FlextIterableMapEntry extension".
- - **FEAT**: add FlextIterableMapEntry extension.
+- **FIX**: Romove FlextIterableMapEntry as it creates conflicts with other Iterable extensions.
 
 ## 0.4.0
 
- - Add FlextIterableMapEntry extension
-
- - **FEAT**: add FlextIterableMapEntry extension.
+- **FEAT**: add FlextIterableMapEntry extension.
 
 ## 0.3.1
 
- - **FEAT**: Add  and  methods to list extension.
+- **FEAT**: Add  and  methods to list extension.
 
 ## 0.3.0
 
- - Add `pickOneRandom` and `pickNRandom` methods to list extension
+- Add `pickOneRandom` and `pickNRandom` methods to list extension
 
- - **FIX**: add collection dependency to flext_core.
+- **FIX**: add collection dependency to flext_core.
 
 ## 0.2.1
 
- - Add `collection` dependency.
+- Add `collection` dependency.
 
 ## 0.2.0
 
