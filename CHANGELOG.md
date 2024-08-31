@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-08-31
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flext_core` - `v0.4.0`](#flext_core---v040)
+ - [`flext` - `v1.3.0`](#flext---v130)
+
+---
+
+#### `flext_core` - `v0.4.0`
+
+ - Add FlextIterableMapEntry extension
+
+ - **FEAT**: add FlextIterableMapEntry extension.
+
+#### `flext` - `v1.3.0`
+
+
 ## 2024-08-23
 
 ### Changes
