@@ -1,3 +1,8 @@
+## 0.4.1
+
+ - **FEAT**: add FlextIterableMapEntry extension".
+ - **FEAT**: add FlextIterableMapEntry extension.
+
 ## 0.4.0
 
  - Add FlextIterableMapEntry extension

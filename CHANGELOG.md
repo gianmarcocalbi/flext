@@ -15,6 +15,35 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flext_core` - `v0.4.1`](#flext_core---v041)
+ - [`flext` - `v1.3.1`](#flext---v131)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flext` - `v1.3.1`
+
+---
+
+#### `flext_core` - `v0.4.1`
+
+ - **FEAT**: add FlextIterableMapEntry extension".
+ - **FEAT**: add FlextIterableMapEntry extension.
+
+
+## 2024-08-31
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flext_core` - `v0.4.0`](#flext_core---v040)
  - [`flext` - `v1.3.0`](#flext---v130)
 
