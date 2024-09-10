@@ -1,3 +1,11 @@
+## 0.5.0
+
+ - Add FlextCoreMap with getOr and getOrThrow methods
+
+ - **FEAT**: add FlextCoreMap.
+ - **FEAT**: add FlextIterableMapEntry extension".
+ - **FEAT**: add FlextIterableMapEntry extension".
+
 ## 0.4.1
 
 - **FIX**: Romove FlextIterableMapEntry as it creates conflicts with other Iterable extensions.

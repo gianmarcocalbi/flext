@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-09-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flext` - `v1.4.0`](#flext---v140)
+ - [`flext_core` - `v0.5.0`](#flext_core---v050)
+
+---
+
+#### `flext` - `v1.4.0`
+
+#### `flext_core` - `v0.5.0`
+
+ - Add FlextCoreMap with getOr and getOrThrow methods
+
+ - **FEAT**: add FlextCoreMap.
+ - **FEAT**: add FlextIterableMapEntry extension".
+ - **FEAT**: add FlextIterableMapEntry extension".
+
+
 ## 2024-08-31
 
 ### Changes
