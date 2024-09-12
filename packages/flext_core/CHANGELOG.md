@@ -1,3 +1,7 @@
+## 0.5.0+1
+
+ - **FIX**: re-export collection package from flext_core.
+
 ## 0.5.0
 
 - **FEAT**: add FlextCoreMap.
