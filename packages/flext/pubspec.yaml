@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   flext_core: ^0.5.0+1
-  flext_bloc: ^0.1.0
+  flext_bloc: ^0.2.0
   flext_go_router: ^1.0.0
 
 dev_dependencies:
