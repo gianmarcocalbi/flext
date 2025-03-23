@@ -15,6 +15,25 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flext` - `v1.4.2`](#flext---v142)
+
+---
+
+#### `flext` - `v1.4.2`
+
+
+## 2025-03-23
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flext_bloc` - `v0.2.0`](#flext_bloc---v020)
  - [`flext` - `v1.4.2`](#flext---v142)
 
