@@ -1,3 +1,7 @@
+## 0.5.1
+
+ - Change WillPopScope with PopScope
+
 ## 0.5.0+1
 
  - **FIX**: re-export collection package from flext_core.

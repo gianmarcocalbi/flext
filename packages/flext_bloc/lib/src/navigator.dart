@@ -42,8 +42,8 @@ extension FlextBlocNavigator on NavigatorState {
     Widget child = const _DefaultChild(),
   }) async {
     final route = PageRouteBuilder(
-      pageBuilder: (_, __, ___) => WillPopScope(
-        onWillPop: () async => false,
+      pageBuilder: (_, __, ___) => PopScope(
+        canPop: false,
         child: Scaffold(
           backgroundColor: Colors.transparent,
           body: BlocListener<B, S>(

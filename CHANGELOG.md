@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2025-04-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flext_core` - `v0.5.1`](#flext_core---v051)
+ - [`flext_bloc` - `v0.3.0`](#flext_bloc---v030)
+ - [`flext` - `v1.4.3`](#flext---v143)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flext` - `v1.4.3`
+
+---
+
+#### `flext_core` - `v0.5.1`
+
+ - Change WillPopScope with PopScope
+
+#### `flext_bloc` - `v0.3.0`
+
+ - Update flutter_bloc to v9
+
+
 ## 2025-03-23
 
 ### Changes

@@ -21,8 +21,8 @@ extension FlextCoreNavigator on NavigatorState {
   Future pushBarrier({bool showProgressIndicator = true}) async {
     push(
       PageRouteBuilder(
-        pageBuilder: (_, __, ___) => WillPopScope(
-          onWillPop: () async => false,
+        pageBuilder: (_, __, ___) => PopScope(
+          canPop: false,
           child: Scaffold(
             backgroundColor: Colors.transparent,
             body: showProgressIndicator
